@@ -91,3 +91,14 @@ For open source projects, say how it is licensed.
 
 ## Project status
 If you have run out of energy or time for your project, put a note at the top of the README saying that development has slowed down or stopped completely. Someone may choose to fork your project or volunteer to step in as a maintainer or owner, allowing your project to keep going. You can also make an explicit request for maintainers.
+
+## How to set up the Database for the Project
+Database (postgresql mit pgadmin4)
+1.	Postgresql(pgadmin4) öffnen
+2.	Neue database erstellen -> Name: swa -> password: 123
+3.	Tables erstellen (Inhalt muss nicht hier erstellt werden) swa -> schemas -> tables oder mit SQL
+4.	Neue table -> user 
+5.	Neue table -> post (hier column post_id nicht erstellen, wird automatisch beim Ausführen vom Backend erstellt)
+6.	Neue table -> comment
+7.	Neue table -> comment_reaction
+8.	Neue table -> user_reaction 
