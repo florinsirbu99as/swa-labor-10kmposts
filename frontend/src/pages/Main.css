@@ -1,0 +1,132 @@
+
+.main-container {
+    width: 80vw;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    border: 2px solid #f23f4c;
+  }
+  
+  .share-container {
+    margin-bottom: 20px;
+  }
+  
+  .share-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .share-container button {
+    padding: 10px;
+    background-color: var(--primary-color);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .share-container button:hover {
+    background-color: var(--primary-color-hover);
+  }
+  
+  .posts-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; 
+  }
+  
+  .post-card {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: var(--background-color);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.05);
+    position: relative;
+    margin-bottom: 20px; 
+  }
+  
+  .post-actions {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .comments-section {
+    margin-top: 20px;
+    padding-top: 10px;
+    border-top: 1px solid #ccc;
+  }
+  
+  .comment-card {
+    margin-bottom: 10px;
+    padding: 10px; 
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: var(--background-color);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.05);
+    font-size: 12px; 
+  }
+  
+  .comment-header {
+    display: flex;
+    align-items: center;
+    gap: 5px; 
+    margin-bottom: 5px; 
+  }
+  
+  .comment-header .user-avatar {
+    width: 20px; 
+    height: 20px; 
+    background-color: var(--background-color);
+    border-radius: 50%;
+  }
+  
+  .comment-header .username {
+    font-weight: bold;
+    font-size: 12px; 
+  }
+  
+  .comment-content {
+    font-size: 12px; 
+    margin-top: 5px; 
+  }
+  
+  .comment-card .MuiCardActions-root {
+    padding: 5px; 
+  }
+  
+  .comment-button {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    padding: 5px;
+    background-color: var(--secondary-color);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 12px;
+    width: auto;
+    white-space: nowrap;
+  }
+  
+  .comment-button:hover {
+    background-color: var(--secondary-color-hover);
+  }
+  
+  .comment-container button {
+    width: 100px;
+    background-color: var(--secondary-color);
+  }
+  
+  .comment-container button:hover {
+    background-color: var(--secondary-color-hover);
+  }
+  
+  .comment-form {
+    margin-bottom: 20px; 
+  }
+ 

@@ -1,0 +1,36 @@
+.taskleiste {
+  background-color: hsl(356, 87%, 60%);
+  padding: 10px;
+  border-radius: 25px;
+}
+
+.taskleiste-list {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.taskleiste-item {
+  margin-right: 20px;
+}
+
+.taskleiste-item a {
+  color: white;
+  text-decoration: none;
+}
+
+.taskleiste-item button {
+  color: white;
+}
+
+.taskleiste-title {
+  flex-grow: 1; 
+  display: flex;
+  justify-content: center; 
+}
+
+.logo-image {
+  height: 200px; 
+  width: auto; 
+}
